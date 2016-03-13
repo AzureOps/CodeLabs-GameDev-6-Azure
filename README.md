@@ -152,7 +152,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 	````
 4. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
 
-	![Game Score Inserted](Images/azure-insert.png?raw=true "Game Score Inserted") 
+	![Game Score Inserted](Images/azure-table-insert.png?raw=true "Game Score Inserted") 
 	
 5. Observe a new record added:
 
