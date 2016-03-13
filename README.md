@@ -64,8 +64,10 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	![Create Azure Mobile App](Images/azure-create-mobile-app.png?raw=true "Create Azure Mobile App")
 
-1. The following shows a code snippet.
+2. You’ll need to provide App Service name (this is the URL where your backend will live), configure your subscription, and set your resource group and plan. You can choose location where your app to be most active:
 
+	![Configure Azure Mobile App](Images/azure-create-mobile-app-details.png?raw=true "Configure Azure Mobile App")
+		
 	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
 	<!-- mark:5-10 -->
 	````C#
