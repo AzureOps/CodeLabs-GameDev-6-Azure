@@ -30,10 +30,8 @@ The following is required to complete this module:
 
 > **Note:** You can take advantage of the [Visual Studio Dev Essentials]( https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx) subscription in order to get everything you need to build and deploy your app on any platform.
 
-<a name="Intended Audeience"></a>
-### Intended Audience ###
+> **Note:** Intended Audience. This lab is intended for developer’s familiar with C# and Visual Studio. It does not require prior experience with Unity gaming platform. 
 
-This lab is intended for developer’s familiar with C# and Visual Studio. It does not require prior experience with Unity gaming platform.  
 
 <a name="Setup" />
 ### Setup ###
