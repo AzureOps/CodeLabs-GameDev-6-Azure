@@ -107,8 +107,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 1. First you need to create a data model for Azure Mobile app. The great thing about Azure Mobile apps is that as you change your data model, backend automatically picks up the changes. In our game we’ll save user and the best score achieved during the game. Add the following code to **GameScore.cs** file in Assets\Complete\Scripts\Build16 folder:
 		
-	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
-	<!-- mark:5-10 -->
+	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameScore.cs_)
 	````C#
     public class GameScore
     {
@@ -123,8 +122,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 2. Next, you need to connect your game to Azure. Add the following code to **GameManager.cs** Start method after //BUILD16 Connect to Azure comment. Please, make sure to replace <YOUR APP SERVICE> with the name of the service you created in Azure portal:
 
-	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
-	<!-- mark:5-10 -->
+	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameManager.cs_)
 	````C#
 	    	//BUILD16 Connect to Azure
 		Debug.Log("Logging into Azure...");
@@ -133,8 +131,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 3. Next, add the following code right after that, this will save initial score to Azure:
 
-	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
-	<!-- mark:5-10 -->
+	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameManager.cs_)
 	````C#
 //BUILD16 Save initial game score in Azure
             userId = System.Guid.NewGuid().ToString();
