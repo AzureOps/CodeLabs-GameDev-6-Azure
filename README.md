@@ -13,7 +13,7 @@ Enable your game with the Azure cloud technologies. Microsoft Azure offers hundr
 In this module, you will see how to:
 
 - Connect your Unity game to Microsoft Azure
-- Use Microsoft Azure App Service in your game 
+- Use Microsoft Azure App Service in your game
 - Store score, settings and game assets using Azure
 
 <a name="Prerequisites"></a>
