@@ -92,7 +92,12 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 	
 	![Azure Add GameScore table](Images/azure-add-gamescore-table.png?raw=true "Azure Add GameScore table") 
 
+<a name="Ex1Task2" />
+#### Task 2 - Open Game Project in Visual Studio ####
 
+1. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution by double clicking on it.
+
+	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
 		
 	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
 	<!-- mark:5-10 -->
@@ -110,10 +115,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
     }
 	````
 
-<a name="Ex1Task2" />
-#### Task 2 - TBC ####
 
-In this task you will TBC.
 
 <a name="Exercise2" />
 ### Exercise 2: Performing the second exercise ###
