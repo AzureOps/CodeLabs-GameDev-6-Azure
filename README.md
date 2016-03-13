@@ -32,46 +32,31 @@ The following is required to complete this module:
 
 > **Note:** Intended Audience. This lab is intended for developer’s familiar with C# and Visual Studio. It does not require prior experience with Unity gaming platform. 
 
-
-<a name="Setup" />
-### Setup ###
-In order to run the exercises in this module, you will need to set up your environment first.
-
-1. Open Windows Explorer and browse to the module's **Source** folder.
-1. Right-click on **Setup.cmd** and select **Run as administrator** to launch the setup process that will configure your environment and install the Visual Studio code snippets for this module.
-1. If the User Account Control dialog box is shown, confirm the action to proceed.
-
-> **Note:** Make sure you have checked all the dependencies for this module before running the setup.
-
-<a name="CodeSnippets" />
-### Using the Code Snippets ###
-
-Throughout the module document, you will be instructed to insert code blocks. For your convenience, most of this code is provided as Visual Studio Code Snippets, which you can access from within Visual Studio 2015 to avoid having to add it manually. 
-
->**Note**: Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this module.
-
 ---
 
 <a name="Exercises" />
 ## Exercises ##
 This module includes the following exercises:
 
-1. [Performing the first exercise](#Exercise1)
-1. [Performing the second exercise](#Exercise2)
+1. [Save game score and settings in Azure](#Exercise1)
+2. [Performing the second exercise](#Exercise2)
 
 Estimated time to complete this module: **60 minutes**
 
->**Note:** When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this module describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 <a name="Exercise1" />
-### Exercise 1: Performing the first exercise ###
+### Exercise 1: Save game score and settings in Azure ###
 
-In this exercise you will TBC.
+Most games need to save score and settings. Wouldn’t it be great if we can save user game score on one device, say a PC and then when the user comes back to another device: his/her tablet or phone, the score is there? In this lab you’ll be able to do it and learn how to use Microsoft Azure portal.
+
+For the purpose of this lab we use a popular Unity Tanks! tutorial game available from Unity3D Web site. Tanks! is a very nice [multiplayer game example](http://unity3d.com/learn/tutorials/projects/tanks-tutorial). In this code lab you’ll learn how to modify this game to add Azure functionality to the game. At any moment you can access any step of this tutorial in code. Simply look at the project folder
+
+- StepComplete folder contains complete code of the game
+- Step3_AddedGameScore source of the game with game score added
 
 <a name="Ex1Task1" />
 #### Task 1 - TBC ####
 
-In this task you will TBC.
+![Tanks Game](Images/tanks-game.png?raw=true "Tanks Game")
 
 1. Open **Visual Studio Community 2015** and select **File | New Project...** to start a new solution.
 
