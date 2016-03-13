@@ -67,6 +67,25 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 2. You’ll need to provide App Service name (this is the URL where your backend will live), configure your subscription, and set your resource group and plan. You can choose location where your app to be most active:
 
 	![Configure Azure Mobile App](Images/azure-create-mobile-app-details.png?raw=true "Configure Azure Mobile App")
+	
+3. Once deployed, the Azure portal will bring you directly to the configuration screen with the settings tab open. All of the settings we’ll adjust can be found under the Mobile section:
+
+	![Configure Azure Settings](Images/azure-settings.png?raw=true "Configure Azure Settings")
+	
+4. Our backend data will live in a database. Under the Data Connections section, select Add, and then configure a new SQL database:
+
+	![Configure Database Settings](Images/azure-db.png?raw=true "Configure Azure Database")
+	
+When the data connection is created, it will appear in the Mobile Apps data connections blade, which means it’s time to set up the data that will go in the new database.
+
+	![Azure Database Connection](Images/azure-db-connection.png?raw=true "Azure Database Connection")
+	
+5. Click OK on all open blades and Azure will begin to create the database for us on the fly. When the data connection is created, it will appear in the Mobile Apps data connections blade, which means it’s time to set up the data that will go in the new database. Under Mobile settings is a new section called Easy Tables, which enable us to easily set up and control the data coming to and from the iOS and Android apps. Select the Easy Tables section, and we’ll be prompted with a big blue warning asking us to configure Easy Tables/Easy APIs:
+ 
+	![Azure Easy Tables](Images/azure-easy-tables.png?raw=true "Azure Easy Tables")
+
+Since we already setup the database, the only thing left to do is Initialize the app.
+
 		
 	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
 	<!-- mark:5-10 -->
