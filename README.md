@@ -78,17 +78,19 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 	
 When the data connection is created, it will appear in the Mobile Apps data connections blade, which means it’s time to set up the data that will go in the new database.
 
+5. Click OK on all open blades and Azure will begin to create the database for us on the fly. When the data connection is created, it will appear in the Mobile Apps data connections blade, which means it’s time to set up the data that will go in the new database. 
+
 	![Azure Database Connection](Images/azure-db-connection.png?raw=true "Azure Database Connection")
-	
-5. Click OK on all open blades and Azure will begin to create the database for us on the fly. When the data connection is created, it will appear in the Mobile Apps data connections blade, which means it’s time to set up the data that will go in the new database. Under Mobile settings is a new section called Easy Tables, which enable us to easily set up and control the data coming to and from the iOS and Android apps. Select the Easy Tables section, and we’ll be prompted with a big blue warning asking us to configure Easy Tables/Easy APIs:
+ 
+6. Under Mobile settings is a new section called Easy Tables, which enable us to easily set up and control the data coming to and from the iOS and Android apps. Select the Easy Tables section, and we’ll be prompted with a big blue warning asking us to configure Easy Tables/Easy APIs:
 
 	![Azure Easy Tables](Images/azure-easy-tables.png?raw=true "Azure Easy Tables")
 
-6. Since we already setup the database, the only thing left to do is Initialize the app.
+7. Since we already setup the database, the only thing left to do is Initialize the app.
 
 	![Azure Initialize the App](Images/azure-init-app.png?raw=true "Azure Initialize the App")
 
-7. When the app will be fully initialized you can add our first table of the database named GameScore. If you are adding Azure Mobile Apps to an existing application, this table name should match the class name of the data you with to store. The beautiful part of Easy Tables is that it will automatically update and add the columns in the table dynamically based on the data we pass in. For this example, I’ll simply allow full anonymous access to the table, however it is possible to add authentication with Facebook, Twitter, Google, Microsoft, and other OAuth login providers.
+8. When the app will be fully initialized you can add our first table of the database named GameScore. If you are adding Azure Mobile Apps to an existing application, this table name should match the class name of the data you with to store. The beautiful part of Easy Tables is that it will automatically update and add the columns in the table dynamically based on the data we pass in. For this example, I’ll simply allow full anonymous access to the table, however it is possible to add authentication with Facebook, Twitter, Google, Microsoft, and other OAuth login providers.
 
 	![Azure Add GameScore table](Images/azure-add-gamescore-table.png?raw=true "Azure Add GameScore table") 
 
