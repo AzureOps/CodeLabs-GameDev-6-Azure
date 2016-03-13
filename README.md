@@ -128,6 +128,36 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 		AzureMobileServices.Connect("https://<YOUR APP SERVICE>.azurewebsites.net");
 	````
 
+3. Next, add the following code right after that, this will save initial score to Azure:
+
+	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
+	<!-- mark:5-10 -->
+	````C#
+//BUILD16 Save initial game score in Azure
+            userId = System.Guid.NewGuid().ToString();
+            GameScore score = new GameScore { user = userId, score = 0 };
+            AzureMobileServices.Insert<GameScore>(score, (response) =>
+            {
+                if (response.Status == CallbackStatus.Failure)
+                {
+                    Debug.LogError("Inserting record failed.");
+                    Debug.LogError(response.Exception.ToString());
+                    return;
+                }
+
+                // print something
+                Debug.Log("Successfully inserted item " + score.id);
+            });
+
+	````
+4. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
+
+	![Game Score Inserted](Images/azure-insert.png?raw=true "Game Score Inserted") 
+	
+5. Observe a new record added:
+
+	![Game Score Inserted Record](Images/azure-insert-details.png?raw=true "Game Score Inserted Record") 
+
 <a name="Exercise2" />
 ### Exercise 2: Performing the second exercise ###
 
