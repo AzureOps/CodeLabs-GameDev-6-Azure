@@ -52,19 +52,17 @@ For the purpose of this lab we use a popular Unity Tanks! tutorial game availabl
 
 - StepComplete folder contains complete code of the game
 - Step3_AddedGameScore source of the game with game score added
-
-<a name="Ex1Task1" />
-#### Task 1 - TBC ####
-
+ 
 ![Tanks Game](Images/tanks-game.png?raw=true "Tanks Game")
 
-1. Open **Visual Studio Community 2015** and select **File | New Project...** to start a new solution.
+<a name="Ex1Task1" />
+#### Task 1 - Create Azure Mobile App ####
 
-	![Creating a New Project](Images/creating-a-new-project.png?raw=true "Creating a New Project")
+Microsoft Azure provides hundreds of features game developers can take advantage of. One of them is Mobile Apps. 
 
-	_Creating a New Project_
+1. Go to [Azure Portal](http://windowsazure.com) and click Portal. If necessary, create a free account with Azure. Inside of the Azure portal, simply select **New | Web + Mobile | Mobile App**, which is the starting point to configure your Azure Mobile App backend.
 
-	> **Note:** This is a placeholder step. For the Visual Studio screenshots use the Light theme (its the best to be printed).
+	![Create Azure Mobile App](Images/azure-create-mobile-app.png?raw=true "Create Azure Mobile App")
 
 1. The following shows a code snippet.
 
