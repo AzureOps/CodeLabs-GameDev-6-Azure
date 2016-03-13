@@ -38,13 +38,13 @@ The following is required to complete this module:
 ## Exercises ##
 This module includes the following exercises:
 
-1. [Save game score and settings in Azure](#Exercise1)
-2. [Performing the second exercise](#Exercise2)
+1. [Create Azure App Service for your game](#Exercise1)
+2. [Save game score and settings in Azure](#Exercise2)
 
 Estimated time to complete this module: **60 minutes**
 
 <a name="Exercise1" />
-### Exercise 1: Save game score and settings in Azure ###
+### Exercise 1: Create Azure App Service for your game ###
 
 Most games need to save score and settings. Wouldn’t it be great if we can save user game score on one device, say a PC and then when the user comes back to another device: his/her tablet or phone, the score is there? In this lab you’ll be able to do it and learn how to use Microsoft Azure portal.
 
@@ -92,15 +92,18 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 	
 	![Azure Add GameScore table](Images/azure-add-gamescore-table.png?raw=true "Azure Add GameScore table") 
 
-<a name="Ex1Task2" />
-#### Task 2 - Open Game Project in Visual Studio ####
+<a name="Exercise2" />
+### Exercise 2: Save game settings and score in Azure ###
+
+<a name="Ex2Task1" />
+#### Task 1 - Open Game Project in Visual Studio ####
 
 1. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution by double clicking on it. Then run the project by pressing **F5**. This should start Tanks! game as a Windows Universal app.
 
 	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
 	
-<a name="Ex1Task3" />
-#### Task 3 - Add code to save game score in Azure ####
+<a name="Ex2Task2" />
+#### Task 2 - Add code to save game score in Azure ####
 
 1. First you need to create a data model for Azure Mobile app. The great thing about Azure Mobile apps is that as you change your data model, backend automatically picks up the changes. In our game we’ll save user and the best score achieved during the game. Add the following code to **GameScore.cs** file in Assets\Complete\Scripts\Build16 folder:
 		
@@ -158,24 +161,19 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	![Game Score Inserted Record](Images/azure-insert-details.png?raw=true "Game Score Inserted Record") 
 
-<a name="Exercise2" />
-### Exercise 2: Performing the second exercise ###
-
-In this exercise you will TBC.
-
-<a name="Ex2Task1" />
-#### Task 1 - TBC ####
-
-In this task you will TBC.
-
 ---
 
 <a name="Summary" />
 ## Summary ##
 
-By completing this module you should have:
+Congratulations on completing this Lab! You’ve learned how you can connect Microsoft Azure to your game with just a few lines of code. You learned how to use Microsoft Azure portal to create an manage Azure services. By completing this module you should have:
 
-- Performed the first exercise
-- Performed the second exercise
+- Created a Mobile App in Azure and connected to your game.
+- Learned how to save game score and settings in Azure
 
-> **Note:** You can take advantage of the [Visual Studio Dev Essentials]( https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx) subscription in order to get everything you need to build and deploy your app on any platform.
+<a name="Additional Resources" />
+## Additional Resources ##
+
+- [Microsoft Azure](http://azure.microsoft.com)
+- [Azure App Service](https://azure.microsoft.com/en-us/documentation/services/app-service/)
+- [Unity Tanks Game](http://unity3d.com/learn/tutorials/projects/tanks-tutorial) 
