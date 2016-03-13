@@ -1,30 +1,39 @@
 ﻿<a name="HOLTop" />
-# Module title #
+# Engaging Players with Azure #
 
 ---
 
 <a name="Overview" />
 ## Overview ##
 
-TBC. If you need examples, you can see [Web Camps](https://github.com/Microsoft-Web/WebCampTrainingKit/) and [Node Camps] (https://github.com/Microsoft-Web/NodeCamp/).
+Enable your game with the Azure cloud technologies. Microsoft Azure offers hundreds of cross-platform services for any device: Android, iOS and Windows. In this lab, you will use a sample game and add Azure services to it. Your app will take advantage of multiple Azure services: you can choose what services to use in your game to expand it to its full potential.
 
 <a name="Objectives" />
 ### Objectives ###
 In this module, you will see how to:
 
-- Example objective
-- Another example
+- Connect your Unity game to Microsoft Azure
+- Use Microsoft Azure App Service in your game 
+- Store score, settings and game assets using Azure
 
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
 The following is required to complete this module:
 
+- Windows 10.
 - [Visual Studio Community 2015][1] or greater.
+- [Unity 5.3.3][2]
 
 [1]: https://www.visualstudio.com/products/visual-studio-community-vs
+[2]: http://www.unity3d.com
 
 > **Note:** You can take advantage of the [Visual Studio Dev Essentials]( https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx) subscription in order to get everything you need to build and deploy your app on any platform.
+
+<a name="Intended Audeience"></a>
+### Intended Audience ###
+
+This lab is intended for developer’s familiar with C# and Visual Studio. It does not require prior experience with Unity gaming platform.  
 
 <a name="Setup" />
 ### Setup ###
