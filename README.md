@@ -95,27 +95,38 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 <a name="Ex1Task2" />
 #### Task 2 - Open Game Project in Visual Studio ####
 
-1. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution by double clicking on it.
+1. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution by double clicking on it. Then run the project by pressing **F5**. This should start Tanks! game as a Windows Universal app.
 
 	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
+	
+<a name="Ex1Task3" />
+#### Task 3 - Add code to save game score in Azure ####
+
+1. First you need to create a data model for Azure Mobile app. The great thing about Azure Mobile apps is that as you change your data model, backend automatically picks up the changes. In our game we’ll save user and the best score achieved during the game. Add the following code to **GameScore.cs** file in Assets\Complete\Scripts\Build16 folder:
 		
 	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
 	<!-- mark:5-10 -->
 	````C#
-    public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+    public class GameScore
     {
-        // ...
+        public string id { get; set; }
 
-        app.UseMvc(routes =>
-        {
-            routes.MapRoute(
-                name: "default",
-                template: "{controller=Home}/{action=Index}/{id?}");
-        });
+        public string user { get; set; }
+
+        public float score { get; set; }
     }
+
 	````
 
+2. Next, you need to connect your game to Azure. Add the following code to **GameManager.cs** Start method after //BUILD16 Connect to Azure comment. Please, make sure to replace <YOUR APP SERVICE> with the name of the service you created in Azure portal:
 
+	(Code Snippet - _ModuleTitle - Ex1 - CodeSnippetSample_)
+	<!-- mark:5-10 -->
+	````C#
+	    	//BUILD16 Connect to Azure
+		Debug.Log("Logging into Azure...");
+		AzureMobileServices.Connect("https://<YOUR APP SERVICE>.azurewebsites.net");
+	````
 
 <a name="Exercise2" />
 ### Exercise 2: Performing the second exercise ###
