@@ -53,8 +53,8 @@ Most games need to save score and settings. Wouldn’t it be great if we can sav
 
 For the purpose of this lab we use a popular Unity Tanks! tutorial game available from Unity3D Web site. Tanks! is a very nice [multiplayer game example](http://unity3d.com/learn/tutorials/projects/tanks-tutorial). In this code lab you’ll learn how to modify this game to add Azure functionality to the game. At any moment you can access any step of this tutorial in code. Simply look at the project folder
 
-- StepComplete folder contains complete code of the game
-- Step3_AddedGameScore source of the game with game score added
+- TaskComplete folder contains complete code of the game
+- TaskGameScore source of the game with game score added
  
 ![Tanks Game](Images/tanks-game.png?raw=true "Tanks Game")
 
@@ -63,7 +63,7 @@ For the purpose of this lab we use a popular Unity Tanks! tutorial game availabl
 
 Microsoft Azure provides hundreds of features game developers can take advantage of. One of them is Mobile Apps. 
 
-1. Go to [Azure Portal](http://windowsazure.com) and click Portal. If necessary, create a free account with Azure. Inside of the Azure portal, simply select **New | Web + Mobile | Mobile App**, which is the starting point to configure your Azure Mobile App backend.
+1. If you already have an Azure account go to [Azure Portal](http://portal.azure.com) or you can open a free one-month trial [Free Azure One-Month Trial](https://azure.microsoft.com/en-us/pricing/free-trial/). Inside of the Azure portal, simply select **New | Web + Mobile | Mobile App**, which is the starting point to configure your Azure Mobile App backend.
 
 	![Create Azure Mobile App](Images/azure-create-mobile-app.png?raw=true "Create Azure Mobile App")
 
