@@ -210,7 +210,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 Congratulations on completing this Lab! You’ve learned how you can connect Microsoft Azure to your game with just a few lines of code. You learned how to use Microsoft Azure portal to create an manage Azure services. By completing this module you should have:
 
 - Created a Mobile App in Azure and connected to your game.
-- Learned how to save game score and settings in Azure
+- Learned how to save game score in Azure
 
 <a name="Additional Resources" />
 ## Additional Resources ##
