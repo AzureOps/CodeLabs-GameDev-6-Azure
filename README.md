@@ -194,11 +194,20 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	````
 	
-5. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
+5. In Visual Studio you can fully debug your Unity game. Let's set a few breakpoints: in Visual Studio solution explorer navigate to **GameManager.cs**: 
+
+	![Set Breakpoints](Images/debug-project.png?raw=true "Set Breakpoints") 
+	
+6. Set up a breakpoint before you call **AzureMobileServices.Insert** method: 
+
+	![Set Breakpoints for Score](Images/debug-save-score.png?raw=true "Set Breakpoints for Score") 
+
+	
+7. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
 
 	![Game Score Inserted](Images/azure-table-insert.png?raw=true "Game Score Inserted") 
 	
-6. Observe a new record added, or alternatively you can connect to the database directly from Visual Studio and check that records are inserted:
+8. Observe a new record added, or alternatively you can connect to the database directly from Visual Studio and check that records are inserted:
 
 	![Game Score Inserted Record](Images/azure-insert-details.png?raw=true "Game Score Inserted Record") 
 
