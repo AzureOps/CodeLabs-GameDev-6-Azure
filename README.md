@@ -106,7 +106,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	![Generate UWP Project](Images/create-uwp-project.png?raw=true "Generate UWP Project") 
 
-3. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution that was generated in the previous step in Ex2\Begin\UnityTanksWithAzure\Ex2Begin by double clicking on it. Then run the project by pressing **F5**. This should start Tanks! game as a Windows Universal app.
+3. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution that was generated in the previous step in Ex2\Begin\UnityTanksWithAzure\Ex2Begin by double clicking on it. Right click **UnityTanksWithAzure (Universal Windows)** project and select **Rebuild All**. After Visual Studio rebuilds the project you can run the project by pressing **F5**. This should start Tanks! game as a Windows Universal app.
 
 	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
 	
