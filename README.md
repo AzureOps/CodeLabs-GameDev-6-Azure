@@ -6,7 +6,7 @@
 <a name="Overview" />
 ## Overview ##
 
-Enable your game with the Azure cloud technologies. Microsoft Azure offers hundreds of cross-platform services for any device: Android, iOS and Windows. In this lab, you will use a sample game and add Azure services to it. Your app will take advantage of multiple Azure services: you can choose what services to use in your game to expand it to its full potential.
+Enable your game with the Azure cloud technologies. Microsoft Azure offers hundreds of cross-platform services for any device: Android, iOS and Windows. In this lab, you will use a sample game and add Azure App Service to it. Your app can take advantage of multiple Azure services available in Azure: you can choose what services to use in your game to expand it to its full potential. In this Lab we use Azure App Service, Mobile App Service, Easy Tables and SQL Azure to store game score.
 
 <a name="Objectives" />
 ### Objectives ###
@@ -14,7 +14,7 @@ In this module, you will see how to:
 
 - Connect your Unity game to Microsoft Azure
 - Use Microsoft Azure App Service in your game
-- Store score, settings and game assets using Azure
+- Store game score using Azure
 
 <a name="Prerequisites"></a>
 ### Prerequisites ###
@@ -42,7 +42,7 @@ This lab is intended for developer’s familiar with C# and Visual Studio. It do
 This module includes the following exercises:
 
 1. [Create Azure App Service for your game](#Exercise1)
-2. [Save game score and settings in Azure](#Exercise2)
+2. [Save game score in Azure App Service](#Exercise2)
 
 Estimated time to complete this module: **60 minutes**
 
