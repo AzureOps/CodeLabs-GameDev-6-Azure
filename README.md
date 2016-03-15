@@ -119,11 +119,13 @@ Microsoft Azure provides hundreds of features game developers can take advantage
         public string user { get; set; }
 
         public float score { get; set; }
+
+        public int tank { get; set; }
     }
 
 	````
 
-2. Next, you need to connect your game to Azure. Add the following code to **GameManager.cs** Start method after //BUILD16 Connect to Azure comment. Please, make sure to replace <YOUR APP SERVICE> with the name of the service you created in Azure portal:
+2. Next, you need to connect your game to Azure. Add the following code to **GameManager.cs** **Start** method after //BUILD16 Connect to Azure comment. Please, make sure to replace <YOUR APP SERVICE> with the name of the service you created in Azure portal:
 
 	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameManager.cs_)
 	````C#
@@ -153,11 +155,50 @@ Microsoft Azure provides hundreds of features game developers can take advantage
         });
 
 	````
-4. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
+4. Each time a tank wins a round, you need to save game score in Azure App Service for that tank. You need to add this method to **GameManager.cs**. This method checks if there's a winning tank **m_RoundWinner** and saves the score for that tank in the database:
+
+	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameManager.cs_)
+	````C#
+	private void SaveScoreInAzure()
+        {
+            if (m_RoundWinner != null)
+            {
+                GameScore score = new GameScore { user = userId, tank = m_RoundWinner.m_PlayerNumber, score = m_RoundWinner.m_Wins };
+                AzureMobileServices.Insert<GameScore>(score, (response) =>
+                {
+                    if (response.Status == CallbackStatus.Failure)
+                    {
+                        Debug.LogError("Inserting record failed.");
+                        Debug.LogError(response.Exception.ToString());
+                        return;
+                    }
+
+                // print something
+                Debug.Log("Successfully inserted item " + score.id);
+                });
+            }
+        }
+
+	````
+
+5. Lastly, you need to invoke this method each time a round ends. Go to **GameManager.cs**, find **RoundEnding** method and add a call to your **SaveScoreToAzure()** method right below where the number of wins is incremented for the player. Don't forget to put both statements in curved brackets, like so:
+
+	(Code Snippet - _Add code to save game score in Azure - Ex2 - GameManager.cs_)
+	````C#
+	    // If there is a winner, increment their score.
+            if (m_RoundWinner != null)
+            {
+                m_RoundWinner.m_Wins++;
+                SaveScoreInAzure();
+            }
+
+	````
+	
+5. Now, build and run the game by clicking **F5** in Visual Studio. After the app launches, you can see that the GameScore table you’ve just created has a new record. In Azure portal click on Game Score table:
 
 	![Game Score Inserted](Images/azure-table-insert.png?raw=true "Game Score Inserted") 
 	
-5. Observe a new record added:
+6. Observe a new record added, or alternatively you can connect to the database directly from Visual Studio and check that records are inserted:
 
 	![Game Score Inserted Record](Images/azure-insert-details.png?raw=true "Game Score Inserted Record") 
 
