@@ -98,6 +98,10 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 <a name="Ex2Task1" />
 #### Task 1 - Open Game Project in Visual Studio ####
 
+1. Launch Unity from the Start Menu, click Open. In the **Select Existing Unity Project** dialog navigate to Ex2/Begin/UnityTanksWithAzure and click **Select Folder**. Unity will import your project.
+
+	![Open Unity Project](Images/create-open-existing-folder.png?raw=true "Open Unity Project") 
+
 1. Launch Visual Studio 2015 from the Start Menu. Then, open **UnityTanksWithAzure** solution by double clicking on it. Then run the project by pressing **F5**. This should start Tanks! game as a Windows Universal app.
 
 	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
