@@ -6,7 +6,7 @@
 <a name="Overview" />
 ## Overview ##
 
-Enable your game with the Azure cloud technologies. Microsoft Azure offers hundreds of cross-platform services for any device: Android, iOS and Windows. In this lab, you will use a sample game and add Azure App Service to it. Your app can take advantage of multiple Azure services available in Azure: you can choose what services to use in your game to expand it to its full potential. In this Lab we use Azure App Service, Mobile App Service, Easy Tables and SQL Azure to store game score.
+Enable your game with the Azure cloud services. Microsoft Azure offers hundreds of cross-platform services for any device: Android, iOS and Windows. In this lab, you will use a sample game and add Azure App Service to it. Naturally, your app can take advantage of multiple services available in Azure: you can choose what services to use in your game to expand it to its full potential. In this Lab we use Azure App Service and storage to save your score.
 
 <a name="Objectives" />
 ### Objectives ###
