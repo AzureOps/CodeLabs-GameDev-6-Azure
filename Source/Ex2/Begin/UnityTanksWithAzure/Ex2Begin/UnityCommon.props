@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityInstallationDir>C:\Program Files\Unity-5.3.3\Editor</UnityInstallationDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity-5.3.3\Editor\Data\PlaybackEngines\MetroSupport</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(SolutionDir)Unity\Tools</UnityWSAToolsDir>
+        <UnityProjectDir>C:\archive\Presentations\BUILD-2016\Tanks\Ex2\Begin\UnityTanksWithAzure</UnityProjectDir>
+    </PropertyGroup>
+</Project>
