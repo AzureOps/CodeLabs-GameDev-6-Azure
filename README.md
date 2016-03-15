@@ -51,11 +51,8 @@ Estimated time to complete this module: **60 minutes**
 
 Most games need to save score and settings. Wouldn’t it be great if we can save user game score on one device, say a PC and then when the user comes back to another device: his/her tablet or phone, the score is there? In this lab you’ll be able to do it and learn how to use Microsoft Azure portal.
 
-For the purpose of this lab we use a popular Unity Tanks! tutorial game available from Unity3D Web site. Tanks! is a very nice [multiplayer game example](http://unity3d.com/learn/tutorials/projects/tanks-tutorial). In this code lab you’ll learn how to modify this game to add Azure functionality to the game. At any moment you can access any step of this tutorial in code. Simply look at the project folder
+For the purpose of this lab we use a popular Unity Tanks! tutorial game available from Unity3D Web site. Tanks! is a very nice [multiplayer game example](http://unity3d.com/learn/tutorials/projects/tanks-tutorial). In this code lab you’ll learn how to modify this game to add Azure functionality to the game. 
 
-- TaskComplete folder contains complete code of the game
-- TaskGameScore source of the game with game score added
- 
 ![Tanks Game](Images/tanks-game.png?raw=true "Tanks Game")
 
 <a name="Ex1Task1" />
