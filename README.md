@@ -110,6 +110,8 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	![Visual Studio Solution](Images/vs-solution.png?raw=true "Visual Studio Solution") 
 	
+> **Note:** At any point if you want to jump to the finished app, you can repeat steps in this task to generate a Ex2\End project, it contains completed source code.
+	
 <a name="Ex2Task2" />
 #### Task 2 - Add code to save game score in Azure ####
 
