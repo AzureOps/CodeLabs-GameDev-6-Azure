@@ -1,0 +1,7 @@
+Assembly-CSharp-firstpass.dll
+Assembly-CSharp.dll
+UnityEngine.UI.dll
+Microsoft.UnityPlugins.Core.dll
+UnityEngine.Networking.dll
+Microsoft.UnityPlugins.AzureMobileServices.dll
+Microsoft.UnityPlugins.Common.dll
