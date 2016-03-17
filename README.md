@@ -217,6 +217,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 1. Lastly, you need to invoke this method each time a round ends. Go to **GameManager.cs**, find **RoundEnding** method and add a call to your **SaveScoreToAzure()** method right below where the number of wins is incremented for the player. Don't forget to put both statements in curved brackets, like so.
 
 	(Code Snippet - _GameAzure - Ex2 - RoundEndUpdate_)
+	<!--mark: 1-6-->
 	````C#
 	// If there is a winner, increment their score.
 	if (m_RoundWinner != null)
