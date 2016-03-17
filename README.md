@@ -68,19 +68,19 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	_Create Azure Mobile App_
 
-2. You’ll need to provide App Service name (this is the URL where your backend will live), configure your subscription, and set your resource group and plan. You can choose location where your app to be most active:
+2. You’ll need to provide App Service name (this is the URL where your backend will live), configure your subscription, and set your resource group and plan. You can choose location where your app to be most active.
 	
 	![Configure Azure Mobile App](Images/azure-create-mobile-app-details.png?raw=true "Configure Azure Mobile App")
 
 	_Configure Azure Mobile App_
 	
-3. Once deployed, the Azure portal will bring you directly to the configuration screen with the settings tab open. All of the settings we’ll adjust can be found under the Mobile section:
+3. Once deployed, the Azure portal will bring you directly to the configuration screen with the settings tab open. All of the settings we’ll adjust can be found under the Mobile section.
 	
 	![Configure Azure Settings](Images/azure-settings.png?raw=true "Configure Azure Settings")
 
 	_Configure Azure Settings_
 	
-4. Our backend data will live in a database. Under the Data Connections section, select Add, and then configure a new SQL database:
+4. Our backend data will live in a database. Under the Data Connections section, select Add, and then configure a new SQL database.
 	
 	![Configure Azure Database Settings](Images/azure-db.png?raw=true "Configure Azure Database Settings")
 
@@ -92,7 +92,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 
 	_Azure Database Connection_
  
-6. Under Mobile settings is a new section called Easy Tables, which enable us to easily set up and control the data coming to and from the iOS and Android apps. Select the Easy Tables section, and we’ll be prompted with a big blue warning asking us to configure Easy Tables/Easy APIs:
+6. Under Mobile settings is a new section called Easy Tables, which enable us to easily set up and control the data coming to and from the iOS and Android apps. Select the Easy Tables section, and we’ll be prompted with a big blue warning asking us to configure Easy Tables/Easy APIs.
 	
 	![Azure Easy Tables](Images/azure-easy-tables.png?raw=true "Azure Easy Tables")
 
@@ -255,7 +255,7 @@ Microsoft Azure provides hundreds of features game developers can take advantage
 <a name="Summary"></a>
 ## Summary ##
 
-Congratulations on completing this module! You’ve learned how you can connect Microsoft Azure to your game with just a few lines of code. You learned how to use Microsoft Azure portal to create an manage Azure services. By completing this module you should have:
+Congratulations on completing this module! You’ve learned how you can connect Microsoft Azure to your game with just a few lines of code. You learned how to use Microsoft Azure portal to create an manage Azure services. By completing this module, you should have:
 
 - Created a Mobile App in Azure and connected to your game.
 - Learned how to save game score in Azure
